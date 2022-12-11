@@ -12,4 +12,60 @@ box-sizing: border-box;
     margin: 0 auto;
     position: relative;
 }
-.pipe
+.pipe{
+position: absolute;
+bottom: 0;
+width: 80px;
+animation: pipe-animation 2s infinite linear;
+
+}
+.mario{
+    width: 150px;
+    position: absolute;
+    bottom: 0;
+ 
+
+}
+.jump {
+    animation: jump-mario 500ms ease-out;
+}
+/* Animação do tubo, que é a imagem "PIPE" */
+@keyframes pipe-animation {
+ /*  inicio*/
+    from {
+right: -80px;
+
+    }
+    /* fim da animação */
+    to {
+        right: 100%;
+    }
+}
+
+/* Animação do pulo do mario */
+@keyframes jump-mario {
+
+    /* inicio */
+0% {
+    bottom: 0;
+}
+ /* intermediarios */
+40% {
+    bottom: 190px;
+}
+
+ 50% {
+
+    bottom: 190px;
+ }  
+ 60% {
+
+    bottom: 190px;
+ }  
+ /* E fim da animação*/
+ 100% {
+    bottom: 0;
+ }
+ 
+
+}
