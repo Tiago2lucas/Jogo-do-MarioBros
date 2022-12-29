@@ -3,31 +3,43 @@ margin: 0;;
 padding: 0;;
 box-sizing: border-box;
 }
-
+.score {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  font-size: x-large;
+}
 .game-board {
 
-    width: 80;
+    width: 100%;
     height: 500px;
-    border: 1px solid #333;
+    border-bottom: 14px solid #08ad53;
     margin: 0 auto;
     position: relative;
+    background: linear-gradient(#87CEEB, #E0F6FF);
 }
 .pipe{
 position: absolute;
 bottom: 0;
 width: 80px;
-animation: pipe-animation 2s infinite linear;
+animation: pipe-animation 1.5s infinite linear;
 
 }
 .mario{
     width: 150px;
     position: absolute;
     bottom: 0;
- 
-
 }
+
+
 .jump {
-    animation: jump-mario 500ms ease-out;
+    animation: jump-mario 600ms ease-out;
+}
+
+.clouds {
+    position: absolute;
+    width: 550px;
+    animation: clouds-animation 20s infinite linear;
 }
 /* Animação do tubo, que é a imagem "PIPE" */
 @keyframes pipe-animation {
@@ -50,17 +62,18 @@ right: -80px;
     bottom: 0;
 }
  /* intermediarios */
+
 40% {
-    bottom: 190px;
+    bottom: 150px;
 }
 
  50% {
 
-    bottom: 190px;
+    bottom: 150px;
  }  
  60% {
 
-    bottom: 190px;
+    bottom: 160px;
  }  
  /* E fim da animação*/
  100% {
@@ -68,4 +81,16 @@ right: -80px;
  }
  
 
+}
+
+/* Animação das nuvens */
+@keyframes clouds-animation {
+    
+    from {
+        right: -550px;
+    }
+
+    to{
+right: 100%;
+    }
 }
