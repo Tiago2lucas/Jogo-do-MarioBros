@@ -6,7 +6,7 @@
 * JAVASCRIPT
 
 ## Instrução do jogo 
-- Primeiro use a tecla "ESPAÇO PARA PULAR"
+- Primeiro use a tecla "ESPAÇO PARA PULAR" ou " SETA PRA CIMA ".
 - Segundo passo pule antes que você bata no tunel.
 
 ![giphy](https://user-images.githubusercontent.com/108035638/207201288-2145b29d-518f-427a-883a-94fbc24241d6.gif)
