@@ -1,9 +1,11 @@
 # Jogo-do-MarioBros
 
 ## 🛠️  Construindo com as Linguagem :
+* JAVASCRIPT
+
+## Ferramenta e Editor de Texto:
 * HTML5
 * CSS3 
-* JAVASCRIPT
 
 ## Instrução do jogo 
 - Primeiro use a tecla "ESPAÇO PARA PULAR" ou " SETA PRA CIMA ".
