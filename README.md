@@ -22,6 +22,4 @@
  Um pojeto que me fez entender como eu posso evoluir nessa area, sei que é simples, mas eu agradeço por ser simples
  e por me trazer muito conhecimento, de pouco em pouco, serei um bom desenvolvedor ou melhor um Expert :man_technologist:.
  
-## Inspirado do vídeo:
-### Manual do Dev
-https://youtu.be/r9buAwVBDhA
+
